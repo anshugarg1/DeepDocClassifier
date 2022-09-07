@@ -1,5 +1,7 @@
 Steps to run the project:
-1. Run 'colab_file.ipynb' in Google Colab.
+1. Upload all the files and folders in this repository to google colab '/content/' folder.
+2. Run 'colab_file.ipynb' in Google Colab.
+
 
 Notes:
 1. For changing the number of files in training per class, modify parameter 'train_per_cls'.
