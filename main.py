@@ -25,7 +25,7 @@ def argument_parse():
     parser.add_argument('--numWorkers', type = int, default=4, help = "Number of worker threads for training.")
     parser.add_argument('--epochs', type = int, default=350, help = "Number of epochs during training.")
 
-    parser.add_argument('--dataset_path', type = str, default= "../dataset/Tobacco3482", help = "Dataset storage loaction relative path.")  
+    parser.add_argument('--dataset_path', type = str, default= "/content/drive/MyDrive/Kaggle/Tobacco3482", help = "Dataset storage loaction relative path.")  
     parser.add_argument('--gen_ds_split_ids', type = bool, default=True, help = "Generate new dataset split ids.")
     parser.add_argument('--train_per_cls', type = int, default=100, help = "Number of training images per class.")
     parser.add_argument('--valSplit', type = float, default=0.2, help = "Validation split percentage.")
